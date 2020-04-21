@@ -1,0 +1,5 @@
+name: 'Drupal API Block'
+type: module
+description: 'Description'
+core: 8.x
+package: 'A simple demo of a block plugin for Drupal that can interface with an API'

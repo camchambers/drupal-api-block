@@ -1,0 +1,8 @@
+{
+    "name": "drupal_api_block",
+    "type": "drupal-module",
+    "description": "Description",
+    "keywords": [
+    ],
+    "minimum-stability": "dev",
+}

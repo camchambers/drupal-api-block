@@ -22,3 +22,19 @@ function drupal_api_block_help($route_name, RouteMatchInterface $route_match) {
     default:
   }
 }
+
+/**
+ * Implements hook_theme().
+ */
+function drupal_api_block_theme() {
+  
+  return [
+    'dog_block' => [
+      'variables' => [
+        'content' => NULL
+      ],
+      'render element' => 'children',
+    ],
+  ];
+  
+}

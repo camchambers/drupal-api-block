@@ -11,6 +11,7 @@
 {% set classes = [
     'clear-both',
 ] %}
+<p>This is a configurable block that dynamically shows dog breeds using an API.</p>
 <div{{ attributes.addClass(classes) }}>
     {% for value in content %}
         <p>{{value}}</p>

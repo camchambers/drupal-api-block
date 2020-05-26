@@ -69,8 +69,8 @@ class DogBlock extends BlockBase {
 
     $build = [];
     $build['#theme'] = 'dog_block';
-    $build['#conten'][] = $this->configuration['breed'];
-    $build['#conten'][] = $this->configuration['number_of_pictures_to_show'];
+    $build['#content'][] = $this->configuration['breed'];
+    $build['#content'][] = $this->configuration['number_of_pictures_to_show'];
 
     return $build;
 
